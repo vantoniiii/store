@@ -1,0 +1,34 @@
+.categories-font{
+    font-weight: 800 !important;
+}
+
+.categories-box{
+    background: rgba(247, 244, 244, 0.733);
+    border-radius: 15px;
+    max-width: 205px;
+    max-height: 220px;
+    padding: 40px 40px 10px 40px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+    margin-left: 20px;
+
+    &:hover{
+        transform: scale(1.05);
+        text-decoration: none;
+    }
+}
+
+.categories-text{
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.categories-img{
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    margin-left: 2px;
+}

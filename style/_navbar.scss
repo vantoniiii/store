@@ -21,6 +21,12 @@
 
 .nav-item{
     padding-left: 20px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.15);
+        text-decoration: none;
+    }
 }
 
 .nav-link{

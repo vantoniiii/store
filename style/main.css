@@ -9233,6 +9233,11 @@ footer p {
 }
 .nav-item {
   padding-left: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.nav-item:hover {
+  transform: scale(1.15);
+  text-decoration: none;
 }
 
 .nav-link {
@@ -9264,7 +9269,8 @@ footer p {
   margin-bottom: 15px;
 }
 .pages-home .store-categories {
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .pages-home .store-new-product {
   margin-top: 10px;
@@ -9272,4 +9278,38 @@ footer p {
 .pages-home .carousel-inner {
   max-height: 500px;
   border-radius: 40px;
+}
+
+.categories-font {
+  font-weight: 800 !important;
+}
+
+.categories-box {
+  background: rgba(247, 244, 244, 0.733);
+  border-radius: 15px;
+  max-width: 205px;
+  max-height: 220px;
+  padding: 40px 40px 10px 40px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+  margin-left: 20px;
+}
+.categories-box:hover {
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+.categories-text {
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.categories-img {
+  max-width: 100%;
+  max-height: 100%;
+  align-items: center;
+  margin-left: 2px;
 }/*# sourceMappingURL=main.css.map */
